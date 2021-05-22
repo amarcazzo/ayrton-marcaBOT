@@ -1,0 +1,43 @@
+{
+  "name": "ayrton-marcabot",
+  "version": "1.0.0",
+  "description": "Telegram BOT with utilities",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amarcazzo/ayrton-marcaBOT.git"
+  },
+  "keywords": [
+    "Telegram",
+    "BOT"
+  ],
+  "author": "Ayrton Marcazzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amarcazzo/ayrton-marcaBOT/issues"
+  },
+  "homepage": "https://github.com/amarcazzo/ayrton-marcaBOT#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^15.6.0",
+    "@types/pino": "^6.3.8",
+    "@types/pino-http": "^5.4.1",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-terminator": "^3.0.0",
+    "pino": "^6.11.3",
+    "pino-http": "^5.5.0",
+    "pino-pretty": "^4.8.0",
+    "telegraf": "^4.3.0"
+  }
+}
